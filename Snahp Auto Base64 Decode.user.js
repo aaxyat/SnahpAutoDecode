@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name        Snahp Auto Base64 Decode
-// @description Auto Decode Base64 within User Threads
-// @author      Bilibox
-// @version     1.0.1
-// @include     /^https:\/\/forum\.snahp\.it\/viewtopic\.php\?\/*/
-// @icon        https://forum.snahp.it/favicon.ico
-// @homepage    https://github.com/Bilibox/Snahp-Auto-Base64-Decode
-// @supportURL  https://github.com/Bilibox/Snahp-Auto-Base64-Decode/issues/
-// @updateURL   https://github.com/Bilibox/Snahp-Auto-Base64-Decode/raw/main/Snahp%20Auto%20Base64%20Decode.user.js
-// @downloadURL https://github.com/Bilibox/Snahp-Auto-Base64-Decode/raw/main/Snahp%20Auto%20Base64%20Decode.user.js
+// @description his user script automatically decodes Base64-encoded strings found in the post content of Snahp forum threads. It replaces the encoded strings with their decoded versions, and also converts certain keys to clickable links. The script runs on the Snahp forum thread pages and modifies the post content dynamically.
+// @author      Bilibox / aaxyat
+// @version     2.0.0
+// @include     /^https:\/\/fora\.snahp\.eu\/viewtopic\.php\?\/*/
+// @icon        https://fora.snahp.eu/favicon.ico
+// @homepage    https://github.com/aaxyat/SnahpAutoDecode
+// @supportURL  https://github.com/aaxyat/SnahpAutoDecode/issues/
+// @updateURL   https://github.com/aaxyat/SnahpAutoDecode/raw/main/Snahp%20Auto%20Base64%20Decode.user.js
+// @downloadURL https://github.com/aaxyat/SnahpAutoDecode/raw/main/Snahp%20Auto%20Base64%20Decode.user.js
 // @grant       none
 // @run-at      document-end
 // ==/UserScript==
